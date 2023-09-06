@@ -99,7 +99,7 @@ idna==3.4
 imageio==2.31.3
 imutils==0.5.4
 ipykernel==6.25.1
-ipython==8.14.0
+ipython==7.34.0
 itsdangerous==2.1.2
 jedi==0.19.0
 Jinja2==3.1.2
@@ -158,4 +158,4 @@ typing_extensions==4.7.1
 tzdata==2023.3
 urllib3==2.0.4
 wcwidth==0.2.6
-Werkzeug==2.3.7
+Werkzeug==2.2.2

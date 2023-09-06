@@ -117,7 +117,6 @@ ninja==1.11.1
 numpy==1.25.2
 opencv-python==4.8.0.76
 opencv-python-headless==4.8.0.76
-torch==1.13.1
 packaging==23.1
 pandas==2.1.0
 parso==0.8.3
@@ -149,7 +148,7 @@ stack-data==0.6.2
 sympy==1.12
 threadpoolctl==3.2.0
 tifffile==2023.8.25
-
+torch==1.13.1
 torchaudio==2.0.2
 torchvision==0.15.2
 tornado==6.3.3

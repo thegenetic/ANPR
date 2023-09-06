@@ -5,6 +5,7 @@ import imutils
 import easyocr
 from flask import Flask, render_template, request
 import test
+import os
 
 app = Flask(__name__)
 reader = easyocr.Reader(['en'])
@@ -51,9 +52,15 @@ def predict():
     text = result[0][-2]
 
     query = test.main(text)
+
+    try:
+        os.remove(image_path)
+    except:
+        pass
+
     # cv2.imwrite('1.png', cropped_image)
     return render_template('index.html', text = query)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host="0.0.0.0")

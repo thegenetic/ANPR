@@ -27,17 +27,16 @@ def check_details(num):
 def print_details(num):
     for i in details:
         if details[i]['carID'] == num:
-            print(details[i])
+            return (details[i])
 
 def main(num):
     if not check_details(num):
         add_details(num)
-    #     print_details(num)
-    # else:
-    #     print_details(num)
-    return details[0]
+        return print_details(num)
+    else:
+        return print_details(num)
 
-# if __name__ == '__main__': 
+# if __name__ == '__main__':
 #     print(main('TR03K0325'))
 #     # print(details)
 

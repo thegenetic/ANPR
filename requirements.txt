@@ -13,7 +13,7 @@ easyocr==1.7.0
 executing==1.2.0
 # Flask==2.3.3
 Flask==2.2.5
-fonttools==4.42.1
+fonttools==4.38.0
 idna==3.4
 imageio==2.31.3
 imutils==0.5.4

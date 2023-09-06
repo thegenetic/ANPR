@@ -64,7 +64,7 @@ scipy==1.7.3
 shapely==2.0.1
 six==1.16.0
 stack-data==0.6.2
-sympy==1.12
+sympy==1.10.1
 threadpoolctl==3.2.0
 tifffile==2023.8.25
 torch==2.0.1

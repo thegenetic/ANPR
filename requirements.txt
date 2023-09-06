@@ -76,4 +76,4 @@ torchaudio==0.13.1
 #tzdata==2023.3
 urllib3==2.0.4
 wcwidth==0.2.6
-Werkzeug==2.3.7
+Werkzeug==2.2.3
